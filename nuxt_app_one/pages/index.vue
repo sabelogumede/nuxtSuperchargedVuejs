@@ -10,7 +10,6 @@
       <Button type='success'>Success</Button>
       <Button type='warning'>Warning</Button>
       <Button type='error'>Error</Button>
-      
     </div>
   </section>
 </template>
@@ -23,6 +22,14 @@ export default {
   components: {
     AppLogo,
     my_comp
+  },
+  // add middleware to the page below 
+  // & bind middleware in the nuxt.config to add middleaware in the whole site.
+  middleware:['mw1'],
+  data(){
+    return{
+      msg:'this is data in index.vue'
+    }
   }
 }
 </script>

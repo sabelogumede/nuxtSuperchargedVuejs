@@ -36,6 +36,12 @@ module.exports = {
     },
     vendor:['iview']
   },
-  plugins:['@/plugins/iview']
+  plugins:['@/plugins/iview'],
+  /* 
+  ** add middleware to the whole site here
+  */
+  router:{
+    middleware:['mw1','mw2']
+  } 
 }
 
