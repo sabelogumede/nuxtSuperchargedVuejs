@@ -33,7 +33,9 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
-  }
+    },
+    vendor:['iview']
+  },
+  plugins:['@/plugins/iview']
 }
 

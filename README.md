@@ -9,7 +9,8 @@
 #npm install # Or yarn
 #npm run dev
 
-
+#PlugIN - installed
+#iView = website for more
 
 
 
