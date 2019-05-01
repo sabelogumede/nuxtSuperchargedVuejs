@@ -1,7 +1,10 @@
 <template>
     <div>
-        this is another.vue in pages/
-        <my_comp/>
+        this is user.vue in pages/
+
+        <!-- nuxt child helpes with the nesting.
+            Its like a window -->
+        <nuxt-child/>
     </div>
 </template>
 
