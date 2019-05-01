@@ -5,7 +5,8 @@ export default function(context){
     // error method enchase of an error. 
     // when you have nothing to parse leave an empty error object literal.
     context.error({
-        statusCode:404,
-        message:'Cannot find page Sabelo 404'
+        statusCode:500,
+        message:'server error... Sabelo',
+        custom_prop:'this is custom prop'
     })
 }

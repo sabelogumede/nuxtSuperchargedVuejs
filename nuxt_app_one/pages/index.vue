@@ -26,11 +26,14 @@ export default {
   // add middleware to the page below 
   // & bind middleware in the nuxt.config to add middleaware in the whole site.
   middleware:['mw1'],
-  data(){
-    return{
-      msg:'this is data in index.vue'
-    }
-  }
+  layout:'custom'
+
+  
+  // data(){
+  //   return{
+  //     msg:'this is data in index.vue'
+  //   }
+  // }
 }
 </script>
 

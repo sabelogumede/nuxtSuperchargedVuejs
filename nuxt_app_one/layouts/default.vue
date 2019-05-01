@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p style='background:red;color:yellow'>This is a default.vue in layouts/</p>
     <nuxt/>
   </div>
 </template>
